@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity() {
         val adapter = ViewPagerAdapter(supportFragmentManager)
 
         // add fragment to the list
-        adapter.addFragment(GeeksFragment(), "Naveen")
-        adapter.addFragment(CodeFragment(), "Kumar")
-        adapter.addFragment(LeetFragment(), "Putta")
+        adapter.addFragment(NaveenFragment(), "Naveen")
+        adapter.addFragment(KumarFragment(), "Kumar")
+        adapter.addFragment(PuttaFragment(), "Putta")
 
         // Adding the Adapter to the ViewPager
         pager.adapter = adapter
